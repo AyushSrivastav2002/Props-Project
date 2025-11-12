@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Parent{
+    background-color: black;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    min-height: 100px;
+
+}
+.Card{
+    height: 300px;
+    width: 220px;
+    background-color: rgb(201, 189, 191);
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+.Top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    }
+    
+    .Top img{
+        height: 38px;
+        width: 38px;
+        border-radius: 50%;
+        border: 1px solid black;
+        }
+    .Top button{
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        padding: 3px 5px;
+        font-size: 10px;
+        gap: 3px;
+        border-radius: 4px;
+    }
+    .Top button img{
+        border-radius: 0;
+        border: 0;
+        height: 10px;
+        width: 10px;
+        }
+      .Bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid gray;
+        padding-top: 10px;
+        } 
+        .Bottom button{
+            background-color: black;
+            color: white;
+            height: 25px;
+            width: 90px;
+            border-radius: 4px;
+    
+        } 
+        .Middle h3{
+            font-size: 18px;
+            
+
+        } 
+        .Middle h3 span{
+             font-size: 10px;
+             font-weight: lighter;
+        }
+        .Middle h2{
+            font-size: 20px;
+            margin-top: 6px;
+        }
+        .Middle .Box {
+            display: flex;
+            gap: 6px;
+        }
+        .Middle .Box h2{
+            background-color:gainsboro;
+            font-size: medium;
+            padding: 8px;
+            margin-top: 4px;
+            border-radius: 10px;
+        }
+
+
+
+
+
+
+ 
+
